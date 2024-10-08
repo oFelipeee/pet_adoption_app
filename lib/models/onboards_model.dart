@@ -4,6 +4,7 @@ class OnBoards {
   OnBoards({required this.text, required this.image});
 }
 
+
 List<OnBoards> onBoardData = [
   OnBoards(
       text: 'Join us and discover the best\npet in your location',
