@@ -21,6 +21,8 @@ class _HomePageState extends State<HomePage> {
     Icons.chat_outlined,
     Icons.person_outline_rounded
   ];
+
+  
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -85,6 +87,10 @@ class _HomePageState extends State<HomePage> {
               ],
             ),
           ),
+
+
+
+// /////////////////////////////////////////////////////////////////////////////////////
           const SizedBox(height: 20),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 20),
@@ -171,6 +177,9 @@ class _HomePageState extends State<HomePage> {
               ),
             ),
           ),
+
+
+// /////////////////////////////////////////////////////////////////////////////////////
           const SizedBox(height: 30),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 20),
@@ -204,6 +213,8 @@ class _HomePageState extends State<HomePage> {
               ],
             ),
           ),
+
+// /////////////////////////////////////////////////////////////////////////////////////
           const SizedBox(height: 10),
           SingleChildScrollView(
             padding: const EdgeInsets.symmetric(vertical: 10),
@@ -256,6 +267,8 @@ class _HomePageState extends State<HomePage> {
               )
             ]),
           ),
+
+// /////////////////////////////////////////////////////////////////////////////////////
           const SizedBox(height: 20),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 20),
@@ -289,6 +302,9 @@ class _HomePageState extends State<HomePage> {
               ],
             ),
           ),
+
+
+// /////////////////////////////////////////////////////////////////////////////////////
           const SizedBox(height: 10),
           SingleChildScrollView(
             scrollDirection: Axis.horizontal,
@@ -383,6 +399,7 @@ class _HomePageState extends State<HomePage> {
   }
 }
 
+// /////////////////////////////////////////////////////////////////////////////////////
 class CatItem extends StatelessWidget {
   final Cat cat;
   const CatItem({
@@ -390,6 +407,9 @@ class CatItem extends StatelessWidget {
     required this.cat,
   }) : super(key: key);
 
+
+
+// /////////////////////////////////////////////////////////////////////////////////////
   @override
   Widget build(BuildContext context) {
     return ClipRRect(
@@ -470,6 +490,9 @@ class CatItem extends StatelessWidget {
                       ],
                     ),
                   ),
+
+// /////////////////////////////////////////////////////////////////////////////////////
+// /////////////////////////////////////////////////////////////////////////////////////
                   Container(
                     padding: const EdgeInsets.all(5),
                     decoration: const BoxDecoration(
