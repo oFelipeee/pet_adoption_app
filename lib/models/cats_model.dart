@@ -25,6 +25,7 @@ class Cat {
   });
 }
 
+
 List<Cat> cats = [
   Cat(
       fav: true,
